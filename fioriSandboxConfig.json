@@ -1,0 +1,9 @@
+{
+	"applications": {},
+	"bootstrapPlugins": {
+		"myShellPlugin": {
+			"component": "com.sap.myshellplugin",
+			"url": "../../../../../"
+		}
+	}
+}
