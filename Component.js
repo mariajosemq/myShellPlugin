@@ -15,18 +15,18 @@ sap.ui.define([
 			var rendererPromise = this._getRenderer();
 
 			// This is example code. Please replace with your implementation!
-			this.renderRecastChatbot():
+			this.renderRecastChatbot();
 
 		},
-		renderRecastChatbot: function() {
+		renderRecastChatbot: function () {
 			if (!document.getElementById("recast-webchat")) {
 				var s = document.createElement("script");
-				s.setAttribute("id", "recast-webchat");
+				s.setAttribute("id", "cai-webchat");
 				s.setAttribute("src", "https://cdn.cai.tools.sap/webchat/webchat.js");
 				document.body.appendChild(s);
 			}
-			s.setAttribute("channelId", "f4b2874f-161b-48b0-aa92-abbd76a3464d");
-			s.setAttribute("token", "a5692498e93cd1fdb13763e4f147a1b2");
+			s.setAttribute("channelId", "1691a240-ac7f-4bdd-8461-29cf0c9dd673");
+			s.setAttribute("token", "7916d7471330fbeebc5f2fd1191e4b51");
 		},
 
 		/**

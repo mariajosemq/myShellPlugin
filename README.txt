@@ -18,4 +18,3 @@ plugin. In production fioriSandboxConfig.json may not be
 needed. This depends on how the plugin is configured to
 be used by SAP Fiori launchpad. For more information, see
 http://help.sap.com/saphelp_nw751abap/helpdata/en/98/cb0b6355094b2e91a0e6de030cd4ea/content.htm
-test
